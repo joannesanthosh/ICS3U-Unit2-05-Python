@@ -24,6 +24,7 @@ def local_variable():
 def global_variable():
     # This shows what happens with global variables
 
+    global variable_X
     variable_X = variable_X + 1
     variable_Y = 30
     variable_Z = variable_X + variable_Y
